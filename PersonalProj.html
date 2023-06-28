@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgba(182, 182, 182);
+            color: white;
+            font-family: 'roboto', sans-serif;
+        }
+
+        nav {
+            display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(0 56 88);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+            color: rgb(194, 192, 192);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: rgb(29, 29, 31);
+            height: 1.4px;
+            margin: 40px 84px;
+        }
+
+        .left {
+            font-size: 2rem;
+            margin: -283px;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 35px;
+        }
+
+        .firstSection>div {
+            width: 30%;
+            margin: 20px;
+        }
+
+        .leftSection {
+            font-size: 2.5rem;
+            margin-top: auto;
+        }
+        .leftSection .btn {
+            font-size: 2rem;
+            padding: 12px;
+            border: 2px ;
+    background: #cdd1d7;
+    color: #ebe6e6;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 100px;
+}
+        
+
+        .rightSection img {
+            width: 109%;
+            margin: 5px 0;
+        }
+
+        .purple {
+            color: slateblue;
+        }
+
+        #element {
+            color: slateblue;
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh
+        }
+
+        .secondSection h1 {
+            align-self: auto;
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+    width: 93.5vw;
+    height: 2px;
+    display: flex;
+    margin: 96px -99px;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 90px;
+            position: relative;
+    top: -76px;
+    left: -44px;
+        }
+
+        .vertical-title {
+            font-family: roboto;
+            font-size: 14px;
+            position: relative;
+            color: rgb(54, 54, 54);
+            top: 40px;
+            left: -20px;
+        }
+
+        .vertical-desc {
+            width: 125px;
+            font-size: 9px;
+            position: relative;
+            top: 39px;
+            left: -14px;
+            color: white;
+
+        }
+        .image-top1 {
+            width: 50px;
+            position: relative;
+    top: -60px;
+    left: -24px;
+        }
+
+        
+        .image-top2 {
+            width: 57px;
+    position: relative;
+    top: -60px;
+    left: -27px;
+        }
+
+        
+        .image-top3 {
+           
+    width: 65px;
+    position: relative;
+    top: -66px;
+    left: -32px;
+        }
+
+        .image-top4 {
+            
+            width: 66px;
+    position: relative;
+    top: -67px;
+    left: -33px;
+        }
+
+        
+        .image-top5{
+            width: 50px;
+            position: relative;
+            top: -54px;
+            left: -24px;
+            background-color: rgba(182, 182, 182);
+        }
+
+     
+        .image-top6{
+            width: 57px;
+            position: relative;
+            top: -54px;
+            left: -24px;
+            background-color: rgba(182, 182, 182);
+        } 
+        footer{
+            background-color: lavender;
+            height: 230px;
+            
+          
+        }
+        .footer {
+            display:flex;
+            justify-content: space-evenly;
+            padding: 23px 122px
+        }
+        .footer ul{
+            list-style: none;
+            
+        }
+        .footer >div{
+            width : 123px;
+        }  
+        footer .footer-rights{
+            text-align: center;
+        }
+
+
+
+
+       
+
+        
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Harsh's Portfolio</div>
+            <div class="right"></div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, I'm <span class="purple">Harsh.</span>
+                <div>I am an undergrad at Delhi Technological University and I am a </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn"> <a href = "https://drive.google.com/file/d/15IcRtU855-oHdnee7DwEZlMktxJyu9uh/view">View Resume </a></button >
+                 
+                </div> 
+            </div>
+            
+            <div class="rightSection">
+                <img src="bg.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="grey">What have I done so far</span>
+            <h1> Past Experience </h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                 <b><div class="vertical-title">Python</div>></b>
+                    <div class="vertical-desc">
+                        During my 11th and 12th grade, I acquired knowledge of Python and grasped its fundamentals as well as its essential libraries.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top1" src="c.png" alt="">
+                    <div class="vertical-title">C language</div>
+                    <div class="vertical-desc">In the year 2020, I dedicated my time to studying the C language and successfully developed a strong comprehension of its concepts.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top2" src="cpp.png" alt="">
+                    <div class="vertical-title">C++</div>
+                    <div class="vertical-desc">
+                        Following my experience with the C language, I delved into learning C++ where I not only gained proficiency in the language itself but also familiarized myself with the Standard Template Library (STL). Furthermore, I dedicated time to practicing data structures and algorithms using C++.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top3" src="html.png" alt="">
+                    <div class="vertical-title">HTML</div>
+                    <div class="vertical-desc">
+                        Before commencing college in 2021, I took the opportunity to learn HTML and acquired a solid understanding of its fundamentals. Subsequently, I ventured into CSS to enhance my web development skills.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top4" src="css.png" alt="">
+                    <div class="vertical-title">CSS</div>
+                    <div class="vertical-desc">
+                        While pursuing my college curriculum, I simultaneously dedicated time to learning CSS. This allowed me to apply my knowledge in conjunction with HTML to create static websites during my spare time.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top5" src="js.png" alt="">
+                    <div class="vertical-title">JavaScript</div>
+                    <div class="vertical-desc">
+                        I initially started learning JavaScript in 2022, but due to the need to allocate more time to languages like C++, I resumed my JavaScript journey in 2023. As of now, I have covered the foundational concepts and basics of JavaScript.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top6" src="algo.png" alt="">
+                    <div class="vertical-title"> Algorithms</div>
+                    <div class="vertical-desc">
+                        Data Structures and Algorithms being a core subject in college, I have dedicated significant effort to developing a strong understanding of both basic and intermediate algorithms, as well as honing my problem-solving skills.
+                    </div>
+                </div>
+               
+                </div>
+           
+           
+            <!-- background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;"> -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+        
+            <div class="first">
+                <h3> Harsh's Developer Portfolio </h3>
+            </div>
+            <div class="second">
+                <ul>
+                <li>   <a href="http://127.0.0.1:5500/index.html"> Home </a> </li>
+                    <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSHvpBzVjCqwPZvRzjJZMHZJftqVjBLDftjDSPDmBDCGCFsGjTKVJstGnSwfqvHzhCccQlSH"> <li>Gmail</a></li>
+                </ul>
+
+            </div>
+            <div class="third">
+                <ul>
+                    <li> LinkedIn </li>
+                    <li> Gmail</li>
+                    <li> Whatsapp</li>
+                    <li> Instagram</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+        <div class="footer-rights">
+        Copyright &#169;  www.harshvardhanportfolio.com | All Rights Reserved
+        </div>
+        
+    </footer>
+
+
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Learning Software Engineer', 'Web Developer', 'Chess Enthusiast', 'Learning Software Engineer'],
+            typeSpeed: 60,
+        });
+    </script>
+</body>
+
+</html>
